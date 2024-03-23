@@ -14,6 +14,7 @@ body{
     max-height: 80vh;
 
     overflow: hidden;
+    margin: 0px;
 }
 h1{
     color: white;
@@ -21,4 +22,16 @@ h1{
 
     margin: 0px;
     padding: 5px;
+}
+main{
+    background-color: navy  ;
+    display: flex;
+    flex-direction: column;
+}
+#target{
+    text-align: center;
+    font-size: 60px;   
+}
+.grow{
+    flex-grow: 1;
 }
